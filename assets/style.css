@@ -1,11 +1,11 @@
 .jumbotron {
     margin: 0;
     height: 100vh;
-    background: url("../images/goodlife.jpg");
+    background: url("images/goodlife.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400x;
+     min-height: 400x;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -13,4 +13,34 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+body {
+  background-color: yellow;
+}
+
+.jumbo-box {
+  color: yellow;
+  background-color: rgba(8, 14, 0, 0.6);
+}
+
+.social-links {
+  float: right;
+}
+
+span, .social-links {
+  size: 20px;
+  color: green;
+  padding-left: 15px;
+}
+
+.logo {
+    background: url("images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 230px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
