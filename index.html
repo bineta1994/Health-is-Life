@@ -26,13 +26,20 @@
 	<title>Kizomba Festival</title>
 </head>
 
-<body>
-
-  <div class="container-fluid">
+<body id="body">
+	<div class="container-fluid">
      <div class="row">
        <a href="index.html" class="col-sm-8 logo">
                 
        </a>
+       <div class="">
+			 <button onclick="backgroundColor()">
+         red
+       </button>
+       <button class="test">
+         default
+       </button>
+       </div>
        <div id="enter-name"></div>
      </div>
   </div>
@@ -125,7 +132,9 @@
 						have taken catering to your needs to a whole new level when it comes to meal preparation. From specific foods of each
 						meal, how it is seasoned, the type of meat and vegetable quality, down to how many exact meals required per week. Unlike
 						other companies that demand a minimum order of meals per week or month, here at Studio One Fitness we do it on a weekly
-						basis with no commitment to a minimum order of meals. We literally cater to you and your lifestyle, whether you only
+						basis with no commitment to a minimum order of meals.</p>
+            <button id="read-more">read more</button>
+            <p class="more-services" style="display:none">We literally cater to you and your lifestyle, whether you only
 						need breakfasts because your in too much of a rush to prepare it each day, or down to only one day a week because that
 						day is full of meetings each week and you can never get your meals in. We consult on a weekly basis with our clients
 						to discuss the clients needs for the upcoming week, and not only can you order food for specific fitness goals, but
@@ -136,14 +145,14 @@
 		</div>
 	</section>
 
-  <section>
+  <section id="contact">
     <section class="container-fluid">
       <div class="row bg-color-contact">
         <div class="col-sm-4">
 
         </div>
         <div class="col">
-          <h3 class="contact-heading uppercase text-center">
+          <h3 class="contact-heading text-center">
             Let us be a part of your health journey
           </h3>
           <h5 class="uppercase text-center">Contact us now!</h5>

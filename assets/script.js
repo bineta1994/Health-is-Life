@@ -8,6 +8,16 @@ function whatisyourname() {
      enteredName= "Welcome! "  + person
   }
   document.getElementById("enter-name").innerHTML= enteredName;
-}
+};
+
+whatisyourname();
+
+function backgroundColor() {
+  document.getElementById(body).style.background-color= "red";
+};
+
+$("#read-more").click(function(){
+  $(".more-services").toggle();
+});
 
 whatisyourname()
