@@ -24,14 +24,13 @@ body {
   background-color: rgba(8, 14, 0, 0.6);
 }
 
-.social-links {
-  float: right;
-}
+
 
 span, .social-links {
-  size: 20px;
+  size: 30px;
   color: green;
   padding-left: 15px;
+  float: right;
 }
 
 .logo {
@@ -49,7 +48,7 @@ span, .social-links {
  height: 100vh;
 }
 
-.center-form {
-  margin: 0 auto;
-  padding-top: 50px;
-}
+.contact-form {
+   margin: 0 auto;
+   line-height: 10em;
+ }
