@@ -42,12 +42,12 @@
        <a href="index.html" class="col-sm-8 logo">
                 
        </a>
-       <div class="">
-			 <button onclick="backgroundColor()">
-         red
+       <div class="personal-details">
+			 <button class="btn btn-light" onclick="backgroundColor()">
+         RED
        </button>
-       <button class="test">
-         default
+       <button class="test btn btn-light">
+         DEFAULT
        </button>
        </div>
        <div id="enter-name"></div>
@@ -75,10 +75,10 @@
         <a class="nav-link" href="#">Pricing</a>
       </li>
     </ul>
-    <div style="social-links">
+    <div class="social-links ml-auto">
        <li class="list-inline-item">
               <a href="https://twitter.com/studio1fitness" target="_blank">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-twitter icons" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
@@ -110,7 +110,7 @@
 		<div class="container">
 			<h1>Services</h1>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3>Personal Training<span><i class="fas fa-running"></i></span></h3>
 					<p>One on One Personal Training is at its best when done here at Studio One Fitness. We believe in the overall well
 						being and physical development of all our members in a fun, comfortable, and personalized atmosphere. Our clients are
@@ -122,7 +122,7 @@
 						progression assessments, to lifestyle coaching not only in the studio but outside communication throughout. Our clients
 						become part of our lives, as we become part of theirs. Together, we work as a team and stay as a team.</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3>Physio-Med <span><i class="fas fa-user-md"></i></span></h3>
 					<p>Physiotherapy, Chiropractic, and/or Massage Therapy In House Here at Studio One Fitness, we offer a rare service
 						that most fitness institutes do not have. We have partnered up with several Physio-Med clinics in Mississauga to help
@@ -132,7 +132,7 @@
 						staff of Physio-Med and the staff here at Studio One Fitness, we bring together a well rounded fitness program supervised
 						by Professionals for you.</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3>Meal Prep<span><i class="fas fa-utensils"></i></span></h3>
 					<p>When it comes to a healthy lifestyle, choices you make and food preparation is the key to you, r success. Studies
 						have suggested that those who spend time on meal preparation have healthier dietary habits. Here at Studio One Fitness,
@@ -143,12 +143,13 @@
 						meal, how it is seasoned, the type of meat and vegetable quality, down to how many exact meals required per week. Unlike
 						other companies that demand a minimum order of meals per week or month, here at Studio One Fitness we do it on a weekly
 						basis with no commitment to a minimum order of meals.</p>
-            <button id="read-more">read more</button>
-            <p class="more-services" style="display:none">We literally cater to you and your lifestyle, whether you only
+            <p class="more-services">We literally cater to you and your lifestyle, whether you only
 						need breakfasts because your in too much of a rush to prepare it each day, or down to only one day a week because that
 						day is full of meetings each week and you can never get your meals in. We consult on a weekly basis with our clients
 						to discuss the clients needs for the upcoming week, and not only can you order food for specific fitness goals, but
 						you can just because you have no time to prepare. As simple as that, you can contact us today for more details!</p>
+            <button id="read-more">read more</button>
+            
 				</div>
 			</div>
 
@@ -157,13 +158,13 @@
 
    <section id="contact" class="container-fluid">
       <div class="row">
-        <div class= "col-sm-4"></div>
+        <div class= "col-sm-4 center-form"></div>
         
         <div class="col">
-          <h3 class="contact-heading uppercase text-center">
+          <h3 class="headings">
             Let us be a part of your health journey
           </h3>
-          <h5 class="uppercase text-center">Contact us now!</h5>
+          <h5 class="heading-2">Contact us now!</h5>
 
           <div class="contact-form">
             <form action="" onsubmit="return sendMail(this);" method="POST">
@@ -203,8 +204,104 @@
         </div>
       </div>
     </section>
+       <!-- code extracted from mdbootstrap.com -->
+<section class="team-section text-center my-5">
 
-<script src="assets/script.js">
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-5">What are our clients saying</h2>
+  <!-- Section description -->
+  <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+    eum porro a pariatur veniam.</p>
+
+  <!--Grid row-->
+  <div class="row text-center">
+
+    <!--Grid column-->
+    <div class="col-md-4 mb-md-0 mb-5">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+        <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+          eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star-half-alt"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-4 mb-md-0 mb-5">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+        <h6 class="font-weight-bold blue-text my-3">Client since 2015</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fas fa-quote-left pr-2"></i>Studio one is not just there to help you get physically fit, but they also help you eat health and stay healthy .</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-4">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+        <h6 class="font-weight-bold blue-text my-3">Client since 2018</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fas fa-quote-left pr-2"></i>Studio One has literally saved my life. My health has never been better since i joined.</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="fas fa-star"> </i>
+          <i class="far fa-star"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+</section>
+
+<script src="assets/js/script.js">
 </body>
 
 
