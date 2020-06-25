@@ -15,16 +15,18 @@
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 body {
   background-color: white;
   line-height: 30px;
   font-family: "Roboto";
+  color: black;
 }
 
 .jumbo-box {
-  color: yellow;
+  color: rgb(159, 190, 18);
   background-color: rgba(8, 14, 0, 0.6);
 }
 
@@ -89,4 +91,10 @@ heading-2 {
 
 #enter-name {
   text-transform: uppercase;
+}
+
+// class for mouseenter and mouseleave
+.mouse {
+  background: black;
+  color:white;
 }

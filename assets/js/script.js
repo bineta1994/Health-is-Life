@@ -22,3 +22,35 @@ $("#read-more").click(function(){
   $(".more-services").toggle();
 });
 
+
+$(".btn-1").click(function(){
+   alert("pick a background color");
+});
+
+
+$("services").mouseenter(function(){
+  $("p").addClass("mouse")
+});
+
+$("services").mouseleave(function(){
+  $("p").removeClass("mouse")
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
