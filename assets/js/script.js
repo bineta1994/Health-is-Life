@@ -43,6 +43,13 @@ $(document).ready(function(){
   });
 });
 
+$(".icons").mouseenter(function(){
+    $(this).hide();
+})
+$(".icons").mouseleave(function(){
+    $(this).show();
+})
+
 
 
 

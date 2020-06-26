@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.icons {
+  color: green;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color:black !important;
+}
 
 .jumbotron {
     margin: 0;
@@ -74,6 +82,7 @@ heading-2 {
 
  #map {
    height: 400px;
+   margin: 0 auto;
  }
 
  h1,h3,h2 {
@@ -102,3 +111,7 @@ heading-2 {
   color:white;
 }
 
+.services-h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
