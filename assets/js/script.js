@@ -36,6 +36,14 @@ $("services").mouseleave(function(){
   $("p").removeClass("mouse")
 });
 
+$(document).ready(function(){
+  $(".nav-link").mouseenter(function(){
+    $(this).hide().show()
+     
+  });
+});
+
+
 
 
 
