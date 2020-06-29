@@ -76,9 +76,27 @@ heading-2 {
   padding-top: 60px;
   text-align: center;
 }
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 1em;
+}
+
 .center-form {
-   padding-left: 100px;
- }
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
 
  #map {
    height: 400px;
@@ -114,4 +132,16 @@ heading-2 {
 .services-h1 {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .personal-details {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .services-paragraphs{
+    display: block;
+  }
 }

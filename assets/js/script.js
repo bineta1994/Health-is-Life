@@ -23,10 +23,6 @@ $("#read-more").click(function(){
 });
 
 
-$(".btn-1").click(function(){
-   alert("pick a background color");
-});
-
 
 $("services").mouseenter(function(){
   $("p").addClass("mouse")
