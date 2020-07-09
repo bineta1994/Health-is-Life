@@ -5,7 +5,7 @@ function whatisyourname() {
      prompt ("Welcome! Please enter your name", "name");
   }
   else {
-     enteredName= "welcome! "  + person
+     enteredName= "welcome "  + person
   }
   document.getElementById("enter-name").innerHTML= enteredName;
 };
@@ -16,6 +16,10 @@ function backgroundColor() {
   document.getElementById("body").style.background= "red";
 };
 
+function backgroundColor2() {
+  document.getElementById("body").style.background= "white";
+};
+
 $(".more-services").hide();
 
 $("#read-more").click(function(){
@@ -24,28 +28,19 @@ $("#read-more").click(function(){
 
 
 
-$("services").mouseenter(function(){
-  $("p").addClass("mouse")
+$(".services-paragraphs").mouseenter(function(){
+  $(".services-paragraphs").addClass("mouse1");
 });
 
-$("services").mouseleave(function(){
-  $("p").removeClass("mouse")
-});
 
 $(document).ready(function(){
-  $(".nav-link").mouseenter(function(){
-    $(this).hide().show()
-     
+  $("input").focus(function(){
+    $(this).css("background-color", "#8db306");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "green");
   });
 });
-
-$(".icons").mouseenter(function(){
-    $(this).hide();
-})
-$(".icons").mouseleave(function(){
-    $(this).show();
-})
-
 
 
 

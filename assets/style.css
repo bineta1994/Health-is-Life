@@ -95,7 +95,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: #8db306;
 }
 
  #map {
@@ -120,12 +120,12 @@ button[type="submit"] {
 }
 
 #enter-name {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 // class for mouseenter and mouseleave
 .mouse {
-  background: black;
+  background-color: black;
   color:white;
 }
 
@@ -143,5 +143,27 @@ button[type="submit"] {
 @media only screen and (max-width: 1125px) {
   .services-paragraphs{
     display: block;
+    width: 100%;
   }
+}
+
+@media only screen and (max-width: 761px) {
+  form{
+    margin-bottom: 400px;
+  }
+  .btn-secondary {
+    margin-bottom: 100px;
+  }
+}
+
+#contact{
+  height: 100vh;
+  padding-top: 100px;
+}
+
+#footer {
+  font-size: x-small;
+   background: greenyellow;
+   text-transform: capitalize;
+   text-align: center;
 }
